@@ -11,6 +11,7 @@ git clone https://github.com/Microsoft/BotBuilder.git
 Checkout branch `develop`.
 
 ```
+cd BotBuilder
 git checkout develop
 ```
 
@@ -18,9 +19,9 @@ Open **Microsoft.Bot.Builder.VS2017.sln** in [Visual Studio for Mac](https://www
 
 Rebuild the whole solution. Ignore errors and manually build AspNetCore projects:
 
-* Library/Microsoft.Bot.Connector.AspNetCore.Mvc
-* Library/Microsoft.Bot.Connector.AspNetCore
-* Library/Microsoft.Bot.Connector.Shared
+* Framework/Microsoft.Bot.Connector.AspNetCore.Mvc
+* Framework/Microsoft.Bot.Connector.AspNetCore
+* Framework/Microsoft.Bot.Connector.Common
 
 (To make sure the necessary DLLs were created.)
 
